@@ -1,0 +1,17 @@
+.footer {
+    /* keep footer at bottom of screen */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 2%;
+    justify-content:space-evenly;
+    background-color: #007A79;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #C7CEDF;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
