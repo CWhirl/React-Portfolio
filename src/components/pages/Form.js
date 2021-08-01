@@ -23,11 +23,7 @@ class Form extends React.Component {
 
   render() {
     return (
-      <form
-        method="post"
-        action="subscriberform.php"
-        onSubmit={this.handleSubmit}
-      >
+      <form>
         <label>
           Name:
           <input type="text" name="name" required />
