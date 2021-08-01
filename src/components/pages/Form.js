@@ -34,7 +34,6 @@ class Form extends React.Component {
           Website: (optional)
           <input type="text" name="website" />
         </label>
-        <input type="submit" value="submit" />
       </form>
     );
   }
